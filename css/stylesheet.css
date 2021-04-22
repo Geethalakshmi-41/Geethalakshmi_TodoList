@@ -4,7 +4,7 @@ table{
 }
 
 table, th, td{
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     padding: 8px;
     text-align: center;
 }
@@ -13,16 +13,16 @@ table th {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: teal;
-    background-image: linear-gradient(315deg, #4a8f59 0%, teal 74%);    
-    color: white;
+    background-image: linear-gradient(315deg, #af44a1 0%, rgb(117, 70, 84) 74%);    
+    color: rgb(255, 255, 255);
   }
 
-table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(even){background-color: #cea0c6;}
 table tr:hover {background-color: #ddd;}
 
 .mynav{
     background-color: teal;
-    background-image: linear-gradient(315deg, #4a8f59 0%, teal 74%);    
+    background-image: linear-gradient(315deg, #af44a1 0%, rgb(117, 70, 84) 74%);    
 }
 
 .mynav a{
@@ -36,7 +36,7 @@ table tr:hover {background-color: #ddd;}
 
 footer{
     background-color: teal;
-    background-image: linear-gradient(315deg,#4a8f59 0%, teal 74%);    
+    background-image: linear-gradient(315deg, #af44a1 0%, rgb(117, 70, 84) 74%);    
     color: rgb(206, 252, 252);
     text-align: center;
     padding: 5px ;
@@ -128,9 +128,9 @@ box-shadow: 1px 1px 2px gainsboro;
 .submit {
   cursor: pointer;
     border-radius: 5em;
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: teal;
-    background-image: linear-gradient(315deg, #4a8f59 0%, teal 74%);   
+    background-image: linear-gradient(315deg, #af44a1 0%, rgb(117, 70, 84) 74%);   
     border: 0;
     padding-left: 40px;
     padding-right: 40px;
